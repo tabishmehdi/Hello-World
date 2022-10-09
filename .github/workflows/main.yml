@@ -1,0 +1,20 @@
+name: Hello World
+
+on:
+  push:
+   branches: [ main ]
+  pull_request:
+    branches: [ main ]
+      
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build & Push Image
+      run: |
+        echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "tabishmehdi" --password-stdin
+        docker image build -t tabishmehdi/web-app:latest .
+        docker push tabishmehdi/web-app:latest
