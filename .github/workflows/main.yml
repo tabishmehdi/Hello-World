@@ -16,5 +16,5 @@ jobs:
     - name: Build & Push Image
       run: |
         echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "tabishmehdi" --password-stdin
-        docker image build -t tabishmehdi/web-app:latest .
+        docker image build -t tabishmehdi/web-app-github-action:latest .
         docker push tabishmehdi/web-app:latest
