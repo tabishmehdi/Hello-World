@@ -3,5 +3,5 @@
 ``` 
 List out all the images
 ```
-![]("images/docker-images.jpg")
+![](images/docker-images.jpg)
 
