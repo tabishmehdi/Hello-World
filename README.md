@@ -70,5 +70,10 @@ List out all the docker networks
 It will create a docker network. 
 ```
 ![](images/docker-network-create.jpg)
+### 15. docker rm ```<containerid>```
+``` 
+It will remove the container from the local. 
+```
+![](images/docker-remove-container.jpg)
 
 
