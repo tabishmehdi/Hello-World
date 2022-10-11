@@ -75,5 +75,30 @@ It will create a docker network.
 It will remove the container from the local. 
 ```
 ![](images/docker-remove-container.jpg)
+### 16. docker port ```<containerid>```
+``` 
+It will port on which image running. 
+```
+![](images/docker-port.jpg)
+### 17. docker inspect ```<containerid>```
+``` 
+It will provide detailed info about the container. 
+```
+![](images/docker-inspect.jpg)
+### 18. docker save > ```<tarfilename>```
+``` 
+It will provide detailed info about the container. 
+```
+![](images/docker-save.jpg)
+### 19. docker image prune -a
+``` 
+It will delete all unused images. 
+```
+![](images/docker-prune.jpg)
+### 20. docker rename ```<old-name>``` ```<new-name>```
+``` 
+It will rename the conatiner. 
+```
+![](images/docker-rename.jpg)
 
 
