@@ -85,9 +85,9 @@ It will port on which image running.
 It will provide detailed info about the container. 
 ```
 ![](images/docker-inspect.jpg)
-### 18. docker save > ```<tarfilename>```
+### 18. docker save ```<image-name>``` > ```<tarfilename>```
 ``` 
-It will provide detailed info about the container. 
+It will save the image in a tar file. 
 ```
 ![](images/docker-save.jpg)
 ### 19. docker image prune -a
@@ -100,5 +100,10 @@ It will delete all unused images.
 It will rename the conatiner. 
 ```
 ![](images/docker-rename.jpg)
+### 21. docker load -i ```<tar-file>```
+``` 
+It will load the docker image from the tar file. 
+```
+![](images/docker-load.jpg)
 
 
