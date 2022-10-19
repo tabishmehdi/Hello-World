@@ -3,4 +3,9 @@ COPY . /app
 WORKDIR /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-CMD ["python","app.py"]
+
+# Flask command
+# CMD ["python","app.py"]
+
+# FAstAPI command
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "80"]
